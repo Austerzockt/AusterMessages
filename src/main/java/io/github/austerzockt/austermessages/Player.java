@@ -1,7 +1,7 @@
 package io.github.austerzockt.austermessages;
 
 //just a class to test some stuff. yeah you might need to wrap a few bukkit classes because of the interface dependency, might provide libs for that
-public class Player implements PlaceholderSupport{
+public class Player {
     private String name;
 
     public Player(String name) {
@@ -12,8 +12,5 @@ public class Player implements PlaceholderSupport{
         return name;
     }
 
-    @Override
-    public String placeholder() {
-        return getName();
-    }
+    
 }
